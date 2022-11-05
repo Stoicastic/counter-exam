@@ -4,6 +4,8 @@ import "./index.css";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
+import Errorpage from "./Components/Errorpage";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<Errorpage />} />
         </Routes>
         </>
         

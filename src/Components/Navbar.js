@@ -6,8 +6,8 @@ const Navbar = () => {
     <div>
         <nav>
             <div className="nav-link">
-                <Link to="/">USE-REDUCER-HOOK</Link>
-                <Link to="/about">USE-STATE-HOOK</Link>
+                <Link to="/">COUNTER-APP</Link>
+                <Link to="/about">ABOUT-THE-APP</Link>
             </div>
         </nav>
         
